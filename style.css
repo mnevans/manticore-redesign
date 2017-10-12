@@ -5,13 +5,13 @@
 body {
 	width: 100%;
 	margin: 0px;
+/*	background-color: rgb(221, 221, 221);*/
 	background-color: #4D4D4D;
-/*	background-color: #F5F5F5;*/
 	overflow: hidden;
 }
 
 a {
-	color: #378EF0;
+	color: rgb(23, 125, 223);
 }
 
 button {
@@ -272,20 +272,19 @@ p {
 */
 
 .primary-style-light {
-	background-color: #F5F5F5;
-	color: #2C2C2C;
-}
-
-#secondary {
-	background-color: #B3B3B3;
+/*	background-color: #F5F5F5;
+	color: #2C2C2C;*/
+	background-color: rgb(221, 221, 221);
+	color: rgb(63, 63, 63);
 }
 
 #disabled {
-	color: #707070;
+	color: rgb(168, 168, 168);
 }
 
 #lhs-panel-light {
-	border-color: #B3B3B3;
+	background-color: rgb(245, 245, 245);
+	border-color: rgb(221, 221, 221);
 	border-width: 0px 3px 0px 0px;
 	border-style: solid;
 	display: flex;
@@ -295,7 +294,8 @@ p {
 	float: left;
 }
 #rhs-panel-light {
-	border-color: #B3B3B3;
+	background-color: rgb(245, 245, 245);
+	border-color: rgb(221, 221, 221);
 	border-width: 0px 0px 0px 3px;
 	border-style: solid;
 	display: flex;
@@ -306,7 +306,8 @@ p {
 }
 
 #accounts-panel-light {
-	border-color: #B3B3B3;
+	background-color: rgb(245, 245, 245);
+	border-color: rgb(221, 221, 221);
 	border-width: 0px 3px 0px 0px;
 	border-style: solid;
 	display: flex;
@@ -319,7 +320,8 @@ p {
 }
 
 #albums-panel-light {
-	border-color: #B3B3B3;
+	background-color: rgb(245, 245, 245);
+	border-color: rgb(221, 221, 221);
 	border-width: 0px 3px 0px 0px;
 	border-style: solid;
 	display: flex;
@@ -332,7 +334,8 @@ p {
 }
 
 #members-panel-light {
-	border-color: #B3B3B3;
+	background-color: rgb(245, 245, 245);
+	border-color: rgb(221, 221, 221);
 	border-width: 0px 0px 0px 3px;
 	border-style: solid;
 	display: flex;
@@ -345,7 +348,8 @@ p {
 }
 
 #filters-panel-light {
-	border-color: #B3B3B3;
+	background-color: rgb(245, 245, 245);
+	border-color: rgb(221, 221, 221);
 	border-width: 0px 0px 0px 3px;
 	border-style: solid;
 	display: flex;
@@ -358,7 +362,8 @@ p {
 }
 
 #settings-panel-light {
-	border-color: #B3B3B3;
+	background-color: rgb(245, 245, 245);
+	border-color: rgb(221, 221, 221);
 	border-width: 0px 0px 0px 3px;
 	border-style: solid;
 	display: flex;
@@ -371,7 +376,8 @@ p {
 }
 
 #notifications-panel-light {
-	border-color: #B3B3B3;
+	background-color: rgb(245, 245, 245);
+	border-color: rgb(221, 221, 221);
 	border-width: 0px 0px 0px 3px;
 	border-style: solid;
 	display: flex;
@@ -384,7 +390,8 @@ p {
 }
 
 #share-panel-light {
-	border-color: #B3B3B3;
+	background-color: rgb(245, 245, 245);
+	border-color: rgb(221, 221, 221);
 	border-width: 0px 0px 0px 3px;
 	border-style: solid;
 	display: flex;
@@ -397,32 +404,10 @@ p {
 }
 
 #header-light {
-	border-color: #B3B3B3;
+	background-color: rgb(245, 245, 245);
+	border-color: rgb(221, 221, 221);
 	border-width: 0px 0px 3px 0px;
 	border-style: solid;
 	height: 40px;
 	display: flex;
-}
-
-
-.tooltip {
-    position: relative;
-    display: inline-block;
-    border-bottom: 1px dotted black;
-}
-
-.tooltip .tooltiptext {
-    visibility: hidden;
-    width: 120px;
-    background-color: black;
-    color: #fff;
-    text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
-    position: absolute;
-    z-index: 1;
-}
-
-.tooltip:hover .tooltiptext {
-    visibility: visible;
 }
