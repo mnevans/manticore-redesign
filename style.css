@@ -258,6 +258,12 @@ p {
 	right: 10px;
 }
 
+#info-icon {
+	position: fixed;
+	bottom: 0px;
+	right: 10px;
+}
+
 .panel-icons {
 	width: 20px;
 	margin-bottom: 15px;
