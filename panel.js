@@ -16,6 +16,15 @@ function toggleAlbumPanelDark() {
     }
 }
 
+function toggleAddAlbumPanelDark() {
+    var x = document.getElementById("add-album-panel-dark");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
+
 function toggleMembersPanelDark() {
     var x = document.getElementById("members-panel-dark");
     if (x.style.display === "block") {
@@ -61,6 +70,23 @@ function toggleSharePanelDark() {
     }
 }
 
+function toggleInfoPanelDark() {
+    var x = document.getElementById("info-panel-dark");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
+
+function toggleUserPopoverDark() {
+    var x = document.getElementById("user-popover");
+    if (x.style.display === "block") {
+        x.style.display = "none";
+    } else {
+        x.style.display = "block";
+    }
+}
 
 function toggleAccountPanelLight() {
     var x = document.getElementById("accounts-panel-light");

@@ -417,3 +417,10 @@ p {
 	height: 40px;
 	display: flex;
 }
+
+#active-album {
+	border-radius: 3px;
+	border-color: rgb(23, 125, 223);
+	border-style: solid;
+	border-width: 2px;
+}

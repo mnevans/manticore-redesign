@@ -7,89 +7,101 @@
 <body>
 
 <div class="primary-style-dark">
-<!-- <div class="primary-style-light"> -->
 	<div id="lhs-panel-dark">
-<!-- 	<div id="lhs-panel-light"> -->
-		<div id="manticore-icon">
+<!-- 		<div id="manticore-icon">
 			<img src="img/M_Icon_4.png" style="width: 30px">
+		</div> -->
+
+		<div id="user-icon">
+			<img src="img/userpic.png" style="width: 30px; border-radius: 15px" onclick="toggleUserPopoverDark()">
 		</div>
-		
-		<div class="icons">
-			<img src="img/User_white.png" class="panel-icons" onclick="toggleAccountPanelDark()">
-			<img src="img/ImageAlbum_white.png" class="panel-icons" onclick="toggleAlbumPanelDark()">
-			
-<!-- 			<img src="img/User_black.png" class="panel-icons" onclick="toggleAccountPanelLight()">
-			<img src="img/ImageAlbum_white.png" class="panel-icons" onclick="toggleAlbumPanelLight()"> -->
+
+	<div id="user-popover">
+		<div class="popover-item">
+			<img id="active-item" src="img/userpic.png" style="width: 30px; border-radius: 15px; float: left;">
+			<p style="font-size: 11px; float: left; margin-left: 5px"><b>evansmorg@gmail.com</b></p>
+		</div>
+		<div class="popover-item">
+			<img src="img/userpic2.png" style="width: 30px; border-radius: 15px; float: left; margin-top: 3px">
+			<p style="font-size: 11px; float: left; margin-left: 9px">moevans@adobe.com</p>
+		</div>
+		<div class="popover-item">
+			<img src="img/AddCircle_white.png" style="width: 20px; float: left; margin-top: 5px; margin-left: 5px">
+			<p style="font-size: 11px; float: left; margin-left: 14px">Add Account</p>
 		</div>
 	</div>
-
-	<div id="accounts-panel-dark">
-<!-- 	<div id="accounts-panel-light"> -->
-		<p>ACCOUNTS</p>
+		
+		<div class="icons">
+<!-- 			<img src="img/User_white.png" class="panel-icons" onclick="toggleAccountPanelDark()"> -->
+			<img src="img/ImageAlbum_white.png" class="panel-icons" onclick="toggleAlbumPanelDark()">
+			<img src="img/thumbnail1.png" class="panel-icons">
+			<img src="img/thumbnail2.png" class="panel-icons">
+			<img src="img/thumbnail3.png" class="panel-icons">
+			<img src="img/thumbnail4.png" class="panel-icons">
+			<img src="img/thumbnail5.png" class="panel-icons">
+			<img src="img/thumbnail6.png" class="panel-icons">
+			<img src="img/thumbnail10_active.png" class="panel-icons">
+			<img src="img/thumbnail7.png" class="panel-icons" id="active-album">
+			<img src="img/thumbnail8.png" class="panel-icons">
+			<img src="img/thumbnail9.png" class="panel-icons">
+		</div>
+		<div id="add-album-icon">
+			<img src="img/AddCircle_white.png" class="panel-icons" onclick="toggleAddAlbumPanelDark()">
+		</div>
 	</div>
 
 	<div id="albums-panel-dark">
-<!-- 	<div id="albums-panel-light"> -->
 		<p>ALBUMS</p>
 	</div>
 
+	<div id="add-album-panel-dark">
+		<p>ADD ALBUM</p>
+	</div>
+
 	<div id="rhs-panel-dark">
-<!-- 	<div id="rhs-panel-light"> -->
 		<div class="icons">
 			<img src="img/Users_white.png" class="panel-icons" onclick="toggleMembersPanelDark()">
 			<img src="img/Share_white.png" class="panel-icons" onclick="toggleSharePanelDark()">
 			<img src="img/Filter_white.png" class="panel-icons" onclick="toggleFilterPanelDark()">
 			<img src="img/Settings_white.png" class="panel-icons" onclick="toggleSettingsPanelDark()">
 			<img src="img/Bell_white.png" class="panel-icons" onclick="toggleNotificationPanelDark()">
-
-<!-- 			<img src="img/Users_white.png" class="panel-icons" onclick="toggleMembersPanelLight()">
-			<img src="img/Filter_black.png" class="panel-icons" onclick="toggleFilterPanelLight()">
-			<img src="img/Settings_black.png" class="panel-icons" onclick="toggleSettingsPanelLight()">
-			<img src="img/Bell_white.png" class="panel-icons" onclick="toggleNotificationPanelLight()"> -->
 		</div>
-<!-- 		<div id="share-icon">
-			<img src="img/Share_white.png" class="panel-icons" onclick="toggleSharePanelDark()">
-		</div> -->
-
 		<div id="info-icon">
-			<img src="img/Info_white.png" class="panel-icons" onclick="toggleSharePanelDark()">
+			<img src="img/Info_white.png" class="panel-icons" onclick="toggleInfoPanelDark()">
 		</div>
 	</div>
 
 	<div id="members-panel-dark">
-<!-- 	<div id="members-panel-light"> -->
 		<p>ALBUM MEMBERS</p>
 	</div>
 
 	<div id="filters-panel-dark">
-<!-- 	<div id="filters-panel-light"> -->
 		<p>ALBUM FILTERS</p>
 	</div>
 
 	<div id="settings-panel-dark">
-	<!-- <div id="settings-panel-light"> -->
 		<p>ALBUM SETTINGS</p>
 	</div>
 
 	<div id="notifications-panel-dark">
-<!-- 	<div id="notifications-panel-light"> -->
 		<p>ALBUM ACTIVITY</p>
 	</div>
 
 	<div id="share-panel-dark">
-<!-- 	<div id="share-panel-light"> -->
 		<p>SHARE ALBUM</p>
 	</div>
 
+	<div id="info-panel-dark">
+		<p>ALBUM INFO</p>
+	</div>
+
 	<div id="header-dark">
-<!-- 	<div id="header-light"> -->
 		<div id="album-info">
 			<h3 id="album-title">Manticore Team Travel Photos</h3>
 			<h4 id="album-description">1243 photos • 18 members</h4>
 		</div>
 		<div class="icons" id="header-icons">
 			<img src="img/Add_white.png" id="header-icon">
-			<!-- <img src="img/Share_white.png" id="header-icon"> -->
 			<img src="img/Heart_white.png" id="header-icon">
 			<img src="img/ClassicGridView_white.png" id="header-icon" style="width: 18px; margin-bottom: 3px;">
 			
